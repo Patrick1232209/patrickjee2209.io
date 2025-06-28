@@ -1,0 +1,140 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sunlight College</title>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0; padding: 0; box-sizing: border-box;
+      font-family: 'Nunito', sans-serif;
+    }
+    body {
+      background: #f5f7fa;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: #2a9d8f;
+      color: white;
+      padding: 1.5rem 2rem;
+      text-align: center;
+    }
+    nav {
+      background: #264653;
+      padding: 1rem;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #e9c46a;
+    }
+    .hero {
+      padding: 4rem 2rem;
+      background: linear-gradient(to right, #e9c46a, #f4a261);
+      text-align: center;
+      color: #264653;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+    section {
+      padding: 3rem 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .section-title {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      text-align: center;
+      color: #2a9d8f;
+    }
+    .courses {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 2rem;
+      margin-top: 1rem;
+    }
+    .course-card {
+      background: white;
+      padding: 1rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    footer {
+      background: #264653;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 3rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Sunlight College</h1>
+    <p>Learn. Create. Grow.</p>
+  </header>
+
+  <nav>
+    <a href="#about">About Us</a>
+    <a href="#courses">Courses</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="hero">
+    <h1>Welcome to Sunlight College</h1>
+    <p>Your future starts here.</p>
+  </div>
+
+  <section id="about">
+    <h2 class="section-title">About Us</h2>
+    <p>Sunlight College is committed to providing students with a modern, practical, and innovative learning experience. We believe that combining knowledge with skills empowers students to become the leaders of tomorrow.</p>
+  </section>
+
+  <section id="courses">
+  <h2 class="section-title">Our Courses</h2>
+  <div class="courses">
+    <div class="course-card">
+      <img src="https://source.unsplash.com/400x250/?technology" alt="IT Course" style="width: 100%; border-radius: 10px 10px 0 0;">
+      <h3>Information Technology</h3>
+      <p>Learn programming, web development, and AI basics.</p>
+    </div>
+    <div class="course-card">
+      <img src="https://source.unsplash.com/400x250/?business" alt="Business Course" style="width: 100%; border-radius: 10px 10px 0 0;">
+      <h3>Business Management</h3>
+      <p>Explore marketing, entrepreneurship, and finance.</p>
+    </div>
+    <div class="course-card">
+      <img src="https://source.unsplash.com/400x250/?design" alt="Design Course" style="width: 100%; border-radius: 10px 10px 0 0;">
+      <h3>Creative Design</h3>
+      <p>Discover visual arts, digital design, and creativity.</p>
+    </div>
+  </div>
+</section>
+
+  <section id="contact">
+    <h2 class="section-title">Contact Us</h2>
+    <p style="text-align: center;">
+      Email: info@sunlightcollege.edu<br>
+      Phone: +60 12-345 6789<br>
+      Address: 123 Jalan Cahaya, Kuala Lumpur, Malaysia
+    </p>
+  </section>
+
+  <footer>
+    &copy; 2025 Sunlight College. All rights reserved.
+  </footer>
+
+</body>
+</html>
